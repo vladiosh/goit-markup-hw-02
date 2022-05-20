@@ -1,0 +1,160 @@
+:root {
+  --primary-color: #ffffff;
+  --second-color: #f5f4fa;
+  --third-color: #2f303a;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --accent-first-color: #2196f3;
+  --accent-second-color: #000000;
+  --accent-third-color: #188ce8;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* цвет заголовка #FFFFFF  */
+/* цвет заголовков текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет текста лого и кнопок #2196F3 */
+/* цвет  текста лого #000000 */
+/* цвет почты и тел в футере color: rgba(255, 255, 255, 0.6) */
+
+/* вторичный цвет фона  #F5F4FA */
+
+/* ------------------header--------------- */
+
+.header-logo {
+  color: var(--accent-second-color);
+}
+.header .text {
+  color: var(--accent-first-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-first-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-first-color);
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-first-color);
+}
+
+/* ------------------main--------------- */
+
+/* ---hero--- */
+.hero {
+  background-color: var(--third-color);
+}
+.hero-title {
+  color: var(--primary-color);
+}
+
+.button.primary {
+  background-color: var(--accent-first-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  border: none;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-third-color);
+}
+
+/* ---quality--- */
+
+.quality-title {
+  color: var(--title-text-color);
+}
+
+.quality-list .title {
+  color: var(--title-text-color);
+}
+
+/* ---work--- */
+
+.work-title {
+  color: var(--title-text-color);
+}
+
+/* ---team--- */
+
+.team-list {
+  background-color: var(--second-color);
+}
+.team-title {
+  color: var(--title-text-color);
+}
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* ------------------footer--------------- */
+
+.footer {
+  background-color: var(--third-color);
+}
+
+.footer-logo {
+  color: var(--primary-color);
+}
+.footer .text {
+  color: var(--accent-first-color);
+}
+.adress {
+  color: var(--primary-color);
+}
+
+.contacts {
+  color: var(--contacts-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-first-color);
+}
+
+/* ------------------portfolio--------------- */
+
+.button {
+  background-color: var(--second-color);
+  color: var(--title-text-color);
+  cursor: pointer;
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-first-color);
+  color: var(--primary-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.title-text {
+  color: var(--primary-text-color);
+}
