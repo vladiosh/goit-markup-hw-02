@@ -22,6 +22,7 @@ body {
 }
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -166,7 +167,6 @@ body {
 }
 
 .team-list .subtext {
-  font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
@@ -191,8 +191,6 @@ body {
 .adress {
   color: var(--primary-color);
 
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -200,7 +198,6 @@ body {
 .contacts {
   color: var(--contacts-text-color);
 
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -244,6 +241,5 @@ body {
 .portfolio-list .title-text {
   color: var(--primary-text-color);
 
-  font-size: 16px;
   line-height: 1.88;
 }
